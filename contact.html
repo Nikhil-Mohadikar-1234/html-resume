@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact Details</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Author" content="Nikhil Mohadikar" />
+    <meta name="Description" content="This is Contact Details" />
+    <link rel="shortcut icon" href="./Contact Icon.jpg" type="jpg">
+  </head>
+  <body>
+    <h1>Contact Details</h1>
+    <p>
+      <a href="nikhilmohadikar1234@gmail.com" target="_blank"
+        >nikhilmohadikar1234@gmail.com</a
+      >
+    </p>
+    <a
+      href="https://www.linkedin.com/in/nikhil-mohadikar-851811264"
+      target="_blank"
+      >LinkedIn Profile</a
+    >
+    <br /><br />
+    <hr />
+    <br />
+    <form
+      action="mailto:nikhilmohadikar1234@gmail.com?subject=Contact Details"
+      method="post"
+      enctype="text/plain"
+    >
+      <label for="name"
+        >Name:
+        <input type="text" name="Name" placeholder="Enter Your Name" />
+      </label>
+      <br /><br />
+      <label for="email"
+        >Email:
+        <input type="email" name="Email" placeholder="Enter Your Email" />
+      </label>
+      <br /><br />
+      <label for="message"
+        >Message:<br />
+        <textarea name="Message" rows="3">
+			Type some message...
+		</textarea
+        >
+      </label>
+      <br /><br />
+      <input type="reset" />
+      <input type="submit" />
+      <button type="cancle">Cancle</button>
+    </form>
+  </body>
+</html>
